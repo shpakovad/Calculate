@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Calculate </title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+
+function  getData ()    {
+numOne = +prompt('Введите чилсо 1');
+numTwo = +prompt('Введите чилсо 2');
+simb = prompt('Введите знак');
+}
+
+var result = 0;
+function calc (numOne, numTwo, simb)   {
+   if (simb == '+') {
+   result = numOne + numTwo; 
+ }
+   else if (simb == '-') {
+   result = numOne - numTwo;
+ }
+   else if (simb == '*') {
+   result = numOne * numTwo;
+
+ }
+   else if (simb == '/') {
+   result = numOne / numTwo;
+ }
+return result;
+
+}
+
+function showResult (result)
+{
+alert  (result);
+}
+getData () ;
+calc (numOne, numTwo, simb) ;
+showResult (result);
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+
+</html>
+
+
+
